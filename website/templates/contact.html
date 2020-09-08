@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% set active_page = "contact" %}
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='contact.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="col align-self-center">
+        <div class="container mt-4 d-flex w-50 h-100 p-3 mx-auto flex-column text-left text-justify">
+            <h1 id="contact">Contact Me</h1>
+            <p>I can be reached at all times at:</p>
+            <hr>
+            <div id="email">
+                <a href="mailto:el_am@encs.concordia.ca">el_am@encs.concordia.ca</a>
+            </div>
+            <hr>
+            <p>Please reach out for availability for software development jobs and illustration work.</p>
+            <p>Questions and/or discussions about satellites and cats are also welcome.</p>
+        </div>
+    </div>
+{% endblock %}

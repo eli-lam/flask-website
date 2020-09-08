@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% set active_page = "home" %}
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='cover.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="col align-self-center">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <main role="main" class="inner cover">
+                <h1 class="cover-heading">Elizabeth Lam</h1>
+                <p class="lead">Computer Science Student & Space Enthusiast</p>
+                <br>
+                <p class="lead">
+                    <a href="#" class="btn btn-lg"><span><i class="fab fa-github"></i> Github</span></a>
+                    <a href="#" class="btn btn-lg"><span><i class="fab fa-linkedin"></i> LinkedIn</span></a>
+                </p>
+            </main>
+        </div>
+    </div>
+{% endblock %}

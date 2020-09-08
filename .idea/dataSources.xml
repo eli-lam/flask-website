@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="site" uuid="83d3b1f1-ee3c-4a64-ac55-6af1ff0333ec">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\namae\PycharmProjects\a2\website\site.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="site [2]" uuid="107e9466-69da-4e2b-8f4a-fdb4442ae2f6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\namae\PycharmProjects\a2\website\static\data\site.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
